@@ -13,8 +13,8 @@ export function Hero() {
   });
 
   useEffect(() => {
-    // Target tanggal konferensi
-    const targetDate = new Date("2026-09-15T09:00:00").getTime();
+    // Target tanggal konferensi: 25 November 2026
+    const targetDate = new Date("2026-11-25T00:00:00").getTime();
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -38,7 +38,7 @@ export function Hero() {
       {/* --- BACKGROUND LAYER --- */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1561489411-c0ce86e994bb?w=1920&h=1080&fit=crop"
+          src="/bguntirta.png"
           alt="Conference background"
           className="w-full h-full object-cover"
         />
@@ -74,7 +74,7 @@ export function Hero() {
             transition={{ delay: 0.2 }}
             className="inline-block px-6 py-2 bg-white/10 backdrop-blur-md text-white border border-white/30 rounded-full font-bold mb-8 text-sm md:text-base tracking-wide"
           >
-            September 15-17, 2026 • Banten, Indonesia
+            November 24 - 25, 2026 • Bandung, Indonesia
           </motion.span>
 
           {/* Main Title */}
@@ -164,7 +164,7 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-3 text-white/90">
               <Users className="text-blue-400" size={24} />
-              <span className="font-semibold text-sm">500+ Participants</span>
+              <span className="font-semibold text-sm">200+ Participants</span>
             </div>
           </motion.div>
         </motion.div>

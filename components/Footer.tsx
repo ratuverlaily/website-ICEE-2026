@@ -124,11 +124,11 @@ export function Footer() {
               </li>
               <li className="flex items-center gap-4 group">
                 <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors">{icons.phone}</div>
-                <span className="text-slate-400 font-medium">+62 254 280 330</span>
+                <span className="text-slate-400 font-medium">+6285795057091</span>
               </li>
               <li className="flex items-center gap-4 group">
                 <div className="p-2 bg-blue-500/10 rounded-lg text-blue-400 group-hover:bg-blue-600 group-hover:text-white transition-colors">{icons.mail}</div>
-                <span className="text-slate-400 font-medium">icee2026@untirta.ac.id</span>
+                <span className="text-slate-400 font-medium">elektrountirtaicee2026@gmail.com</span>
               </li>
             </ul>
           </div>

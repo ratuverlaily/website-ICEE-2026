@@ -41,7 +41,7 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <span className="text-blue-600 font-semibold text-sm tracking-wide uppercase">
-              About the Conference 1
+              About the Conference
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6 leading-tight">
               Advancing Sustainable and Intelligent Electrical Systems for a Resilient Future              
@@ -57,8 +57,8 @@ export function About() {
             {/* Box Statistik Kecil */}
             <div className="grid grid-cols-2 gap-4 md:gap-6">
               <div className="text-center p-5 bg-blue-50 rounded-2xl border border-blue-100">
-                <div className="text-3xl md:text-4xl font-bold text-blue-600">50+</div>
-                <div className="text-xs md:text-sm font-medium text-gray-600 mt-1">Expert Speakers</div>
+                <div className="text-3xl md:text-4xl font-bold text-blue-600">2+</div>
+                <div className="text-xs md:text-sm font-medium text-gray-600 mt-1">Speakers</div>
               </div>
               <div className="text-center p-5 bg-blue-50 rounded-2xl border border-blue-100">
                 <div className="text-3xl md:text-4xl font-bold text-blue-600">200+</div>
@@ -78,7 +78,7 @@ export function About() {
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-8 border-gray-50">
               {/* Image Next.js */}
               <img
-                src="https://images.unsplash.com/photo-1561489411-c0ce86e994bb?q=80&w=1000"
+                src="/gb1.png"
                 alt="Conference presentation"
                 className="w-full h-[500px] object-cover"
               />

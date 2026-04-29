@@ -5,34 +5,34 @@ import { motion } from "framer-motion";
 export function Gallery() {
   const pastEvents = [
     {
-      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop",
+      image: "gb2.jpeg",
       title: "ICEE 2025 Opening Ceremony",
-      attendees: "450+ participants",
+      // attendees: "450+ participants",
     },
     {
-      image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&h=400&fit=crop",
+      image: "gb6.jpeg",
       title: "Keynote Presentations",
-      attendees: "International speakers",
+      // attendees: "International speakers",
     },
     {
-      image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&h=400&fit=crop",
+      image: "gb1.png",
       title: "Technical Sessions",
-      attendees: "150+ research papers",
+      // attendees: "150+ research papers",
     },
     {
-      image: "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=600&h=400&fit=crop",
+      image: "gb4.jpeg",
       title: "Networking Events",
-      attendees: "40+ countries",
+      // attendees: "40+ countries",
     },
     {
-      image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?w=600&h=400&fit=crop",
+      image: "gb3.jpeg",
       title: "Workshop Sessions",
-      attendees: "Hands-on learning",
+      // attendees: "Hands-on learning",
     },
     {
-      image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-      title: "Exhibition Hall",
-      attendees: "30+ exhibitors",
+      image: "gb7.jpg",
+      title: "Telkom University",
+      // attendees: "30+ exhibitors",
     },
   ];
 
@@ -86,9 +86,9 @@ export function Gallery() {
                 <h3 className="text-xl font-black mb-2 leading-tight group-hover:text-blue-300 transition-colors">
                   {event.title}
                 </h3>
-                <p className="text-sm text-blue-100 font-medium opacity-80 uppercase tracking-wider">
+                {/* <p className="text-sm text-blue-100 font-medium opacity-80 uppercase tracking-wider">
                   {event.attendees}
-                </p>
+                </p> */}
               </div>
 
               {/* Zoom Icon on Hover */}
@@ -103,36 +103,6 @@ export function Gallery() {
           ))}
         </div>
 
-        {/* Stats Section (Bottom) */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mt-20 flex justify-center"
-        >
-          <div className="inline-flex flex-col md:flex-row items-center gap-8 md:gap-16 bg-white rounded-[2.5rem] p-10 md:px-16 shadow-2xl border border-blue-50 w-full max-w-4xl">
-            <div className="text-center group">
-              <div className="text-4xl md:text-5xl font-black text-blue-600 group-hover:scale-110 transition-transform">5+</div>
-              <div className="text-xs md:text-sm font-bold text-gray-500 mt-2 uppercase tracking-widest">Years of Excellence</div>
-            </div>
-            
-            <div className="hidden md:block h-16 w-px bg-blue-100" />
-            <div className="block md:hidden h-px w-20 bg-blue-100" />
-
-            <div className="text-center group">
-              <div className="text-4xl md:text-5xl font-black text-blue-600 group-hover:scale-110 transition-transform">2000+</div>
-              <div className="text-xs md:text-sm font-bold text-gray-500 mt-2 uppercase tracking-widest">Total Participants</div>
-            </div>
-
-            <div className="hidden md:block h-16 w-px bg-blue-100" />
-            <div className="block md:hidden h-px w-20 bg-blue-100" />
-
-            <div className="text-center group">
-              <div className="text-4xl md:text-5xl font-black text-blue-600 group-hover:scale-110 transition-transform">60+</div>
-              <div className="text-xs md:text-sm font-bold text-gray-500 mt-2 uppercase tracking-widest">Partner Institutions</div>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
