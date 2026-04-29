@@ -41,7 +41,7 @@ export function About() {
             transition={{ duration: 0.8 }}
           >
             <span className="text-blue-600 font-semibold text-sm tracking-wide uppercase">
-              About the Conference
+              About the Conference 1
             </span>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6 leading-tight">
               Advancing Sustainable and Intelligent Electrical Systems for a Resilient Future              
